@@ -27,7 +27,7 @@
 #error "OUTPUT_NUMBER must be defined"
 #endif
 
-#define TRACKLE_IO_CLOUD_VERSION "0.0.0"
+#define TRACKLE_IO_CLOUD_VERSION "0.0.1"
 
 typedef struct InputData_s
 {
