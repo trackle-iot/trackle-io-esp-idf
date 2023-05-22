@@ -27,6 +27,8 @@
 #error "OUTPUT_NUMBER must be defined"
 #endif
 
+#define TRACKLE_IO_CLOUD_VERSION "0.0.0"
+
 typedef struct InputData_s
 {
     uint32_t publish_interval;   // seconds to publish event
