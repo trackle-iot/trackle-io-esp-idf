@@ -1,5 +1,25 @@
 # trackle-io-esp-idf
 
+<p align="center">
+<br><img src="https://www.trackle.io/wp-content/uploads/2022/06/iot-platform-trackle.png" alt="drawing" width="100"/></p>
+
+## Table of contents
+
+1. [Description](#description)
+2. [API provided](#api-provided)
+    1. [POST calls](#post-calls)
+    2. [GET calls](#get-calls)
+
+## Description
+
+This component makes digital I/O ports on a board available through the Trackle cloud.
+
+Operations available include:
+* writing output value;
+* reading input value;
+* getting number of edges detected by an input;
+* enabling the publishing of an input value on the cloud.
+
 ## API provided
 
 The component provided by this repository implements the following API callable through cloud.
